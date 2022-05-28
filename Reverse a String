@@ -1,0 +1,9 @@
+//https://practice.geeksforgeeks.org/problems/reverse-a-string/1
+
+string reverseWord(string str){
+    
+  //Your code here
+  
+  reverse(str.begin(),str.end());
+  return str;
+}
